@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rang Avdhut Art Studios</title>
+    <link rel="" href="">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <style>
+        body {
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        }
+
+        nav {
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            font-style: italic;
+        }
+
+        .links {
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+            font-style: italic;
+        }
+
+        .hero {
+            background-color: aliceblue;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin: auto;
+        }
+
+        @media screen and (max-width: 480px) {
+            .links {
+                display: none;
+            }
+        }
+
+        @media screen and (min-width: 480px) {
+            .bars {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="flex justify-around items-center bg-cyan-950 h-10 ">
+            <div class="max-h-full text-xl">Rang Avdhut Art Studios</div>
+            <div class="links">
+                <ul class="flex md:bg-inherit xl:text-lg">
+                    <li class="ml-7"><a href="#">Home</a></li>
+                    <li class="ml-7"><a href="#">Contact Us</a></li>
+                    <li class="ml-7"><a href="#">About us</a></li>
+                </ul>
+            </div>
+            <div class="bars">
+                <button class="bars"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="swiper">
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="Assets/Hero/hero1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="Assets/Hero/hero3.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="Assets/Hero/hero2.jpg" alt=""></div>
+                    
+                    ...
+                </div>
+                
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="curated-collections">
+            <h3>Curated Collections</h3>
+            <div class="1">
+                <div class="card1">
+                    <img style="height: px;" src="Assets/Landscapes/IMG-20240714-WA0064.jpg" alt="">
+                </div>
+            </div>
+            <div class="2"></div>
+            <div class="3">
+                <div class="upper"></div>
+                <div class="lower"></div>
+            </div>
+            <div class="4"></div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
